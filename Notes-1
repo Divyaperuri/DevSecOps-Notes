@@ -1,0 +1,8 @@
+*DevOps*
+DevOps: DevOps(Developer + Operations) is a Process of improving the delivery of applications by ensuring the 
+proper automation with application quality maintained, Continuous Monitoring and testing.
+Why DevOps?
+* Ten years ago, if the company delivered the application to a customer, there were some steps to follow for this delivery of the application.
+* Developer(Will develop the code) → In Central Repository → Run the application in Server → This should be done by SysAdmin →
+BRE (Build and Release Engineer) → He will deploy the application on to the Server → Server Admin(Use to create the App Server, 
+which means application has to hold that application) → Then it will goes to Production(Customer)
