@@ -6,3 +6,20 @@ Why DevOps?
 * Developer(Will develop the code) → In Central Repository → Run the application in Server → This should be done by SysAdmin →
 BRE (Build and Release Engineer) → He will deploy the application on to the Server → Server Admin(Use to create the App Server, 
 which means application has to hold that application) → Then it will goes to Production(Customer)
+grep - to findout the word in particular file
+grep -i : to find out the word even it is insensitive
+grep -v : unmatch of that word
+grep -c  : to count the word
+grep -n : to get the word line number also
+grep -i -c : to count the word even it is case insensitive
+$ -- indicates the ending line of the word
+^ -- indicates the starting line of the word in grep
+head - to get the top 10 lines
+tail - to get the bottom 10 lines
+tail -f logfile name --> but need to get into root user to get the log details
+If we want to search the word from any file need to use this command - cat <file name> | grep <word search>
+head 'filename' ---> By default will get the top 10 lines
+tail 'filename' --> By default will get the bottom 10 lines
+head -n 5 'filename' --> will give the top 5 lines
+tail -n 3 'filename' --> will give the bottom 3 lines
+head -n 5 'filename' | tail -n 3 --> will get the inbetween lines
