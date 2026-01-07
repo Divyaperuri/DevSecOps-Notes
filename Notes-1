@@ -23,3 +23,12 @@ tail 'filename' --> By default will get the bottom 10 lines
 head -n 5 'filename' --> will give the top 5 lines
 tail -n 3 'filename' --> will give the bottom 3 lines
 head -n 5 'filename' | tail -n 3 --> will get the inbetween lines
+echo --> it wil print the output what we have given
+cut --> to cut the link into fragments
+echo "url link" | cut -d "/" -f1 --> Here it will get the i/p from echo and then it will cut the link into fragments
+cut -d ":" -f1 "/etc/passwd --> Will cut the fragments from files
+awk --> Here will get the last word of that link no need of counting
+echo "url link" | awk -F "/" '{print $NF}' --> Here will get the i/p from the echo and awk will give the last fragment or else we can give the number in N
+awk -F ":" {print $1F)' /etc/passwd --> From this we get the users from the file
+awk -F ":" '{print $1F,$3F}' /etc/passwd --> will get the first user and their 3rd rowm i.e id number from the file
+
