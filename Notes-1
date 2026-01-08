@@ -31,4 +31,34 @@ awk --> Here will get the last word of that link no need of counting
 echo "url link" | awk -F "/" '{print $NF}' --> Here will get the i/p from the echo and awk will give the last fragment or else we can give the number in N
 awk -F ":" {print $1F)' /etc/passwd --> From this we get the users from the file
 awk -F ":" '{print $1F,$3F}' /etc/passwd --> will get the first user and their 3rd rowm i.e id number from the file
+vi -> visually improved
+vim ---> It is more used in editors , here vi or vim are same
+vim --> To create the file and we can edit as per our requirement but in "cat" command its unable to edit the file
+Here in this we have 3 modes :
+1.Command or Colon mode 2.Escape mode 3.Insert mode
+Steps to do edit:
+1.First we need click escape button then i to write the file
+2.after that
+-->i - To insert
+-->q - Quit without saving
+-->:q! - Forceable quit
+-->:wq! - Save the file and quit
+-->:set nu - Will get the line numbers
+-->:<line num> - To change the cursor to another required line.
+--> :/<Seraching word> - To SEARCH the word from top to bottom
+--> :?<searching word> - To search the word from bottom to top
+--> :<line num>d - To delete the particular line
+--> :noh - To unhighlight
+--> :%d - To delete everything
+--> :s/<word-search>/<replace word> -- To search the word and it will replace it
+--> :<line-number>s/<word-search>/<replace word> - It will search the word in given line number and replace
+--> :<line-num>s/<word-search>/<replace word>/g - It will search the word and replace all occurences
+--> gg - To move to top wherver we are
+--> Shift + g - To move to bottom wherever we are
+--> u - To undo the edits
+--> ctrl + r -- Redo
+--> dd - To delete the lines
+--> yy - To copy the line
+--> p - Paste the line below the line
+--> shift + p - Paste the line above
 
